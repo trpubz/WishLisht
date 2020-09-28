@@ -13,6 +13,10 @@
 		25F6D0C0252186C100C922B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F6D0BF252186C100C922B3 /* Preview Assets.xcassets */; };
 		25F6D0CB252186C100C922B3 /* WishLishtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F6D0CA252186C100C922B3 /* WishLishtTests.swift */; };
 		25F6D0D6252186C100C922B3 /* WishLishtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F6D0D5252186C100C922B3 /* WishLishtUITests.swift */; };
+		25F6D0E7252188F700C922B3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F6D0E6252188F700C922B3 /* Colors.swift */; };
+		3D9DBF15E2BF8DB00B24E358 /* Pods_WishLisht.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293DCF8261C24AE22EF81286 /* Pods_WishLisht.framework */; };
+		563E06E27C5B63BDCA770583 /* Pods_WishLishtTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF16DD48CDAD0EC367A7B7BE /* Pods_WishLishtTests.framework */; };
+		E962CD16A6F5991B7E670BA3 /* Pods_WishLisht_WishLishtUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967563AEE97AF87A722B6764 /* Pods_WishLisht_WishLishtUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,16 @@
 		25F6D0D1252186C100C922B3 /* WishLishtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WishLishtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25F6D0D5252186C100C922B3 /* WishLishtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishLishtUITests.swift; sourceTree = "<group>"; };
 		25F6D0D7252186C100C922B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25F6D0E6252188F700C922B3 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		293DCF8261C24AE22EF81286 /* Pods_WishLisht.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WishLisht.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FAC2C93EDE6DF0173FDFAA2 /* Pods-WishLisht-WishLishtUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WishLisht-WishLishtUITests.release.xcconfig"; path = "Target Support Files/Pods-WishLisht-WishLishtUITests/Pods-WishLisht-WishLishtUITests.release.xcconfig"; sourceTree = "<group>"; };
+		52FF8C05AA7D74E2467947D7 /* Pods-WishLisht.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WishLisht.debug.xcconfig"; path = "Target Support Files/Pods-WishLisht/Pods-WishLisht.debug.xcconfig"; sourceTree = "<group>"; };
+		719F1CB5D1B3A48377236B15 /* Pods-WishLishtTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WishLishtTests.release.xcconfig"; path = "Target Support Files/Pods-WishLishtTests/Pods-WishLishtTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E9D8B2EEB71E2D3F92D8D0F /* Pods-WishLisht.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WishLisht.release.xcconfig"; path = "Target Support Files/Pods-WishLisht/Pods-WishLisht.release.xcconfig"; sourceTree = "<group>"; };
+		967563AEE97AF87A722B6764 /* Pods_WishLisht_WishLishtUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WishLisht_WishLishtUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C173C0F23C7D30666DE1C10D /* Pods-WishLisht-WishLishtUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WishLisht-WishLishtUITests.debug.xcconfig"; path = "Target Support Files/Pods-WishLisht-WishLishtUITests/Pods-WishLisht-WishLishtUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF16DD48CDAD0EC367A7B7BE /* Pods_WishLishtTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WishLishtTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E18999D02095D91B581B3E55 /* Pods-WishLishtTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WishLishtTests.debug.xcconfig"; path = "Target Support Files/Pods-WishLishtTests/Pods-WishLishtTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D9DBF15E2BF8DB00B24E358 /* Pods_WishLisht.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				563E06E27C5B63BDCA770583 /* Pods_WishLishtTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E962CD16A6F5991B7E670BA3 /* Pods_WishLisht_WishLishtUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +96,8 @@
 				25F6D0C9252186C100C922B3 /* WishLishtTests */,
 				25F6D0D4252186C100C922B3 /* WishLishtUITests */,
 				25F6D0B6252186BF00C922B3 /* Products */,
+				F50910B331F0D9BF60E47DEA /* Pods */,
+				9B8DA4A24A04F32BC89332FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +114,7 @@
 		25F6D0B7252186BF00C922B3 /* WishLisht */ = {
 			isa = PBXGroup;
 			children = (
+				25F6D0EB252188FC00C922B3 /* Views */,
 				25F6D0B8252186BF00C922B3 /* WishLishtApp.swift */,
 				25F6D0BA252186BF00C922B3 /* ContentView.swift */,
 				25F6D0BC252186C100C922B3 /* Assets.xcassets */,
@@ -130,6 +150,46 @@
 			path = WishLishtUITests;
 			sourceTree = "<group>";
 		};
+		25F6D0EB252188FC00C922B3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				25F6D0EC2521890300C922B3 /* CustomViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		25F6D0EC2521890300C922B3 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				25F6D0E6252188F700C922B3 /* Colors.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		9B8DA4A24A04F32BC89332FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				293DCF8261C24AE22EF81286 /* Pods_WishLisht.framework */,
+				967563AEE97AF87A722B6764 /* Pods_WishLisht_WishLishtUITests.framework */,
+				CF16DD48CDAD0EC367A7B7BE /* Pods_WishLishtTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F50910B331F0D9BF60E47DEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52FF8C05AA7D74E2467947D7 /* Pods-WishLisht.debug.xcconfig */,
+				8E9D8B2EEB71E2D3F92D8D0F /* Pods-WishLisht.release.xcconfig */,
+				C173C0F23C7D30666DE1C10D /* Pods-WishLisht-WishLishtUITests.debug.xcconfig */,
+				3FAC2C93EDE6DF0173FDFAA2 /* Pods-WishLisht-WishLishtUITests.release.xcconfig */,
+				E18999D02095D91B581B3E55 /* Pods-WishLishtTests.debug.xcconfig */,
+				719F1CB5D1B3A48377236B15 /* Pods-WishLishtTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25F6D0DA252186C100C922B3 /* Build configuration list for PBXNativeTarget "WishLisht" */;
 			buildPhases = (
+				E354C4967F1F9511924E6C6A /* [CP] Check Pods Manifest.lock */,
 				25F6D0B1252186BF00C922B3 /* Sources */,
 				25F6D0B2252186BF00C922B3 /* Frameworks */,
 				25F6D0B3252186BF00C922B3 /* Resources */,
+				A9A1B5C9ECA25434A83FB870 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25F6D0DD252186C100C922B3 /* Build configuration list for PBXNativeTarget "WishLishtTests" */;
 			buildPhases = (
+				45A83838C1C2A5995F5CB70D /* [CP] Check Pods Manifest.lock */,
 				25F6D0C2252186C100C922B3 /* Sources */,
 				25F6D0C3252186C100C922B3 /* Frameworks */,
 				25F6D0C4252186C100C922B3 /* Resources */,
@@ -172,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25F6D0E0252186C100C922B3 /* Build configuration list for PBXNativeTarget "WishLishtUITests" */;
 			buildPhases = (
+				37D4AADB3C4A76BDFA692078 /* [CP] Check Pods Manifest.lock */,
 				25F6D0CD252186C100C922B3 /* Sources */,
 				25F6D0CE252186C100C922B3 /* Frameworks */,
 				25F6D0CF252186C100C922B3 /* Resources */,
+				B4407EA23FA3691FC383D625 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,12 +319,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37D4AADB3C4A76BDFA692078 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WishLisht-WishLishtUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45A83838C1C2A5995F5CB70D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WishLishtTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9A1B5C9ECA25434A83FB870 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WishLisht/Pods-WishLisht-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WishLisht/Pods-WishLisht-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WishLisht/Pods-WishLisht-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4407EA23FA3691FC383D625 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WishLisht-WishLishtUITests/Pods-WishLisht-WishLishtUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WishLisht-WishLishtUITests/Pods-WishLisht-WishLishtUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WishLisht-WishLishtUITests/Pods-WishLisht-WishLishtUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E354C4967F1F9511924E6C6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WishLisht-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		25F6D0B1252186BF00C922B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				25F6D0BB252186BF00C922B3 /* ContentView.swift in Sources */,
+				25F6D0E7252188F700C922B3 /* Colors.swift in Sources */,
 				25F6D0B9252186BF00C922B3 /* WishLishtApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +583,7 @@
 		};
 		25F6D0DB252186C100C922B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52FF8C05AA7D74E2467947D7 /* Pods-WishLisht.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +606,7 @@
 		};
 		25F6D0DC252186C100C922B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E9D8B2EEB71E2D3F92D8D0F /* Pods-WishLisht.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +629,7 @@
 		};
 		25F6D0DE252186C100C922B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E18999D02095D91B581B3E55 /* Pods-WishLishtTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +652,7 @@
 		};
 		25F6D0DF252186C100C922B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 719F1CB5D1B3A48377236B15 /* Pods-WishLishtTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +675,7 @@
 		};
 		25F6D0E1252186C100C922B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C173C0F23C7D30666DE1C10D /* Pods-WishLisht-WishLishtUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +696,7 @@
 		};
 		25F6D0E2252186C100C922B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FAC2C93EDE6DF0173FDFAA2 /* Pods-WishLisht-WishLishtUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

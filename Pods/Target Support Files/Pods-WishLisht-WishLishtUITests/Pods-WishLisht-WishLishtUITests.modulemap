@@ -1,0 +1,6 @@
+framework module Pods_WishLisht_WishLishtUITests {
+  umbrella header "Pods-WishLisht-WishLishtUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

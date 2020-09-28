@@ -1,0 +1,6 @@
+framework module Pods_WishLisht {
+  umbrella header "Pods-WishLisht-umbrella.h"
+
+  export *
+  module * { export * }
+}
