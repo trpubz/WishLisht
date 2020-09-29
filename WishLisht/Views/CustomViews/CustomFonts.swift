@@ -15,7 +15,7 @@ struct MonserratFont: ViewModifier {
     
     func body(content: Content) -> some View {
         content
-            .font(Font.custom("Monserrat-Regular", size: UIFont.preferredFont(forTextStyle: style).pointSize).weight(weight))
+            .font(Font.custom("Montserrat-Regular", size: UIFont.preferredFont(forTextStyle: style).pointSize).weight(weight))
             .foregroundColor(color)
     }
 }

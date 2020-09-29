@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2561E1272522667700992979 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2561E1262522667700992979 /* User.swift */; };
+		2561E12F2522668900992979 /* JSONBin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2561E12E2522668900992979 /* JSONBin.swift */; };
 		25F2DC2325218FEA003274BE /* Hind-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25F2DC2225218FEA003274BE /* Hind-Regular.ttf */; };
 		25F2DC2825218FF8003274BE /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25F2DC2725218FF8003274BE /* Montserrat-Regular.ttf */; };
 		25F2DC2D252190B6003274BE /* CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F2DC2C252190B6003274BE /* CustomFonts.swift */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2561E1262522667700992979 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2561E12E2522668900992979 /* JSONBin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONBin.swift; sourceTree = "<group>"; };
 		25F2DC2225218FEA003274BE /* Hind-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hind-Regular.ttf"; sourceTree = "<group>"; };
 		25F2DC2725218FF8003274BE /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		25F2DC2C252190B6003274BE /* CustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFonts.swift; sourceTree = "<group>"; };
@@ -99,6 +103,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2561E1252522665D00992979 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2561E1262522667700992979 /* User.swift */,
+				2561E12E2522668900992979 /* JSONBin.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		25F2DC2125218FB8003274BE /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +166,7 @@
 			children = (
 				25F6D0B8252186BF00C922B3 /* WishLishtApp.swift */,
 				25F6D0EB252188FC00C922B3 /* Views */,
+				2561E1252522665D00992979 /* Models */,
 				25F6D0BC252186C100C922B3 /* Assets.xcassets */,
 				25F6D0C1252186C100C922B3 /* Info.plist */,
 				25F6D0BE252186C100C922B3 /* Preview Content */,
@@ -470,9 +484,11 @@
 				25F6D0BB252186BF00C922B3 /* ContentView.swift in Sources */,
 				25F2DC2D252190B6003274BE /* CustomFonts.swift in Sources */,
 				25F2DC3925219790003274BE /* TextBoxUsername.swift in Sources */,
+				2561E12F2522668900992979 /* JSONBin.swift in Sources */,
 				25F6D0E7252188F700C922B3 /* Colors.swift in Sources */,
 				25F2DC342521969C003274BE /* OnBoardingView.swift in Sources */,
 				25F6D0B9252186BF00C922B3 /* WishLishtApp.swift in Sources */,
+				2561E1272522667700992979 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

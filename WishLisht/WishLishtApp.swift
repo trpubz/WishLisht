@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct WishLishtApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            OnBoardingView()
+            OnBoardingView(number: "")
+                
         }
     }
 }
